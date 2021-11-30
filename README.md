@@ -1,5 +1,5 @@
 # SVM
-手写SVM对Iris鸢尾花和Sonar数据集分类
+手写SVM对Iris和Sonar数据集分类
 
 数据集：  
 [Sonar](http://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+(Sonar,+Mines+vs.+Rocks))  
