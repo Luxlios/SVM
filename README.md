@@ -56,6 +56,8 @@ remark：当C取无穷时，表示后者占据主要地位，不允许出现错�
   <img src="https://github.com/Luxlios/Figure/blob/main/SVM/derivation8.png" height="110">
 </div>
 
+明显是一个凸规划问题，求解利用python凸规划求解工具包cvxopt
+
 ##### 实验结果
 以线性核函数为例。
 <div align="center">
