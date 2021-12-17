@@ -5,11 +5,19 @@
 [Sonar](http://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+(Sonar,+Mines+vs.+Rocks))  
 [Iris](http://archive.ics.uci.edu/ml/datasets/Iris)
 
-#### Content
+### Requirement
+`numpy`  
+`pandas`  
+`matplotlib`  
+`cvxopt`  
+`random`  
+`sklearn`  
+
+### Content
 - [理论推导](#SVM简单推导)
 - [实验结果](#实验结果)
 
-##### SVM简单推导
+### SVM简单推导
 
 SVM算法具有严格的理论推导，有较强的数学意义，下面简单的展示一下SVM求解算法的推导过程，具体推导过程可参考《UNDERSTANDING MACHINE LEARNING FROM THEORY TO ALGORITHMS》。
 <div align="center">
@@ -58,7 +66,7 @@ remark：当C取无穷时，表示后者占据主要地位，不允许出现错�
 
 明显是一个凸规划问题，求解利用python凸规划求解工具包cvxopt
 
-##### 实验结果
+### 实验结果
 以线性核函数为例。
 <div align="center">
   <img src="https://github.com/Luxlios/Figure/blob/main/SVM/result.png" height="200">
